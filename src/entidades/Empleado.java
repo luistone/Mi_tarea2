@@ -22,6 +22,7 @@ public class Empleado implements Serializable{
     private String e_mail;
     private String telefono;
     private int edad;
+    private String univerisdad; // Luis Piedra
 
     public Empleado(String id, String nombres, String apellidos,String estado_civil,String dia,String e_mail,String telefono, int edad) {
         this.id = id;
